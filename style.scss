@@ -1,0 +1,17 @@
+*{margin: 0;
+    padding: 0;
+    }
+    a a:hover{
+    text-decoration: none;
+    }
+    .container{
+        // width: 1040px;
+        margin: auto;
+    }
+    $font-stack: Helvetica, sans-serif;
+$primary-color: #432489;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
