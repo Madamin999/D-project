@@ -1,17 +1,105 @@
-*{margin: 0;
-    padding: 0;
-    }
-    a a:hover{
-    text-decoration: none;
-    }
-    .container{
-        // width: 1040px;
-        margin: auto;
-    }
-    $font-stack: Helvetica, sans-serif;
-$primary-color: #432489;
-
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
+*{
+  margin: 0;
+  padding: 0;
 }
+.container{
+  width: 1440px;
+  margin: auto;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+
+}
+a, a:hover {
+  text-decoration: none;
+}
+#header{
+  background: #10B582;
+  .navbar{
+        padding-top: 20px;
+    grid-gap: 1em;
+    display: grid;
+    grid-auto-flow: column;
+
+    &__item{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      color: #FDFDFD;
+      position: relative;
+      cursor: pointer;
+    }
+
+    &__item:after {
+      content: "";
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: -3px;
+      width: 0;
+      height: 2px; /* Высота линии */
+      background-color: black; /* Цвет подчеркивания при исчезании линии*/
+      transition: width 0.5s; /* Время эффекта */
+    }
+
+    &__item:hover:after {
+      content: "";
+      width: 100%;
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: -3px;
+      height: 2px; /* Высота линии */
+      background-color: red; /* Цвет подчеркивания при появлении линии*/
+      transition: width 0.5s;  /* Время эффекта */
+    }
+
+  }
+}
+//hero
+#hero{
+  background: #10B582 no-repeat center / cover;
+  min-height: 100vh;
+  .hero{
+    &__title{
+      padding-top: 300px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 58px;
+      line-height: 120%;
+      text-align: center;
+      color: #FDFDFD;
+    }
+
+    &__img1{
+      position: absolute;
+      width: 155px;
+      height: 215px;
+      padding-bottom: 200px;
+    }
+  }
+
+}
+//hero
+//ATF
+#atf{
+  padding: 100px 0 100px 0;
+  .atf{
+    &__title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 58px;
+      line-height: 100%;
+      text-align: center;
+    }
+    &__img{
+   padding-left: 23%;
+      padding-top: 3%;
+    }
+    &__btn{
+      padding-left: 50%;
+
+    }
+  }
+}
+//ATF
