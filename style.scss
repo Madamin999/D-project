@@ -58,9 +58,12 @@ a, a:hover {
 }
 //hero
 #hero{
-  background: #10B582 no-repeat center / cover;
+  //background:  #10B582;
+  background: url("../img/pic.png");
   min-height: 100vh;
+  //min-width: 185vh;
   .hero{
+
     &__title{
       padding-top: 300px;
       font-style: normal;
@@ -85,7 +88,7 @@ a, a:hover {
 #atf{
   padding: 100px 0 100px 0;
   .atf{
-    &__title{
+      &__title{
       font-style: normal;
       font-weight: 500;
       font-size: 58px;
@@ -97,9 +100,127 @@ a, a:hover {
       padding-top: 3%;
     }
     &__btn{
-      padding-left: 50%;
+      margin-left: 45%;
+      margin-top: 30px;
 
     }
   }
 }
 //ATF
+//atek
+#atek{
+  padding: 100px 0 100px 0;
+  .atek{
+    &__title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 58px;
+      line-height: 100%;
+      text-align: center;
+    }
+    &__img{
+      padding-left: 23%;
+      padding-top: 3%;
+    }
+    &__btn{
+      margin-left: 45%;
+      margin-top: 30px;
+
+    }
+  }
+}
+//atek
+//ped
+#ped{
+  padding: 100px 0 100px 0;
+  .ped{
+    &__title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 58px;
+      line-height: 100%;
+      text-align: center;
+    }
+    &__img{
+      padding-left: 23%;
+      padding-top: 3%;
+    }
+    &__btn{
+      margin-left: 45%;
+      margin-top: 30px;
+
+    }
+  }
+}
+//ped
+//fil
+#fil{
+  padding: 100px 0 100px 0;
+  .fil{
+    &__title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 58px;
+      line-height: 100%;
+      text-align: center;
+    }
+    &__img{
+      padding-left: 23%;
+      padding-top: 3%;
+    }
+    &__btn{
+      margin-left: 45%;
+      margin-top: 30px;
+
+    }
+  }
+}
+//fil
+//ekf
+#ekf{
+  padding: 100px 0 100px 0;
+  .ekf{
+    &__title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 58px;
+      line-height: 100%;
+      text-align: center;
+    }
+    &__img{
+      padding-left: 23%;
+      padding-top: 3%;
+    }
+    &__btn{
+      margin-left: 45%;
+      margin-top: 30px;
+
+    }
+  }
+}
+//ekf
+//footer
+.line{
+  opacity: 0.1;
+  border: 1px solid #353A5A;
+ margin: 50px 0 50px 0;
+}
+#footer{
+  padding: 30px 0 30px 0;
+  .footer{
+    &__logo{
+      color: #353A5A;
+    }
+    &__subtitle{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 130%;
+      width: 300px;
+    }
+    &__icon{
+      color: #353A5A;
+    }
+  }
+}
+//footer

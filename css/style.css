@@ -64,7 +64,7 @@ a, a:hover {
 }
 
 #hero {
-  background: #10B582 no-repeat center/cover;
+  background: url("../img/pic.png");
   min-height: 100vh;
 }
 #hero .hero__title {
@@ -98,7 +98,107 @@ a, a:hover {
   padding-top: 3%;
 }
 #atf .atf__btn {
-  padding-left: 50%;
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+#atek {
+  padding: 100px 0 100px 0;
+}
+#atek .atek__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  text-align: center;
+}
+#atek .atek__img {
+  padding-left: 23%;
+  padding-top: 3%;
+}
+#atek .atek__btn {
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+#ped {
+  padding: 100px 0 100px 0;
+}
+#ped .ped__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  text-align: center;
+}
+#ped .ped__img {
+  padding-left: 23%;
+  padding-top: 3%;
+}
+#ped .ped__btn {
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+#fil {
+  padding: 100px 0 100px 0;
+}
+#fil .fil__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  text-align: center;
+}
+#fil .fil__img {
+  padding-left: 23%;
+  padding-top: 3%;
+}
+#fil .fil__btn {
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+#ekf {
+  padding: 100px 0 100px 0;
+}
+#ekf .ekf__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  text-align: center;
+}
+#ekf .ekf__img {
+  padding-left: 23%;
+  padding-top: 3%;
+}
+#ekf .ekf__btn {
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+.line {
+  opacity: 0.1;
+  border: 1px solid #353A5A;
+  margin: 50px 0 50px 0;
+}
+
+#footer {
+  padding: 30px 0 30px 0;
+}
+#footer .footer__logo {
+  color: #353A5A;
+}
+#footer .footer__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  width: 300px;
+}
+#footer .footer__icon {
+  color: #353A5A;
 }
 
 /*# sourceMappingURL=style.css.map */
