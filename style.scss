@@ -14,12 +14,14 @@ a, a:hover {
   text-decoration: none;
 }
 #header{
+  min-width: 200vh;
+  position: fixed;
   background: #10B582;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .navbar{
-        padding-top: 20px;
-    grid-gap: 1em;
-    display: grid;
-    grid-auto-flow: column;
+        padding-top: 10px;
 
     &__item{
       font-style: normal;
@@ -63,9 +65,13 @@ a, a:hover {
   min-height: 100vh;
   //min-width: 185vh;
   .hero{
-
+    &__logo{
+      width: 300px;
+      margin-left: 450px;
+      margin-top: 100px;
+    }
     &__title{
-      padding-top: 300px;
+      margin-top: 100px;
       font-style: normal;
       font-weight: 500;
       font-size: 58px;
@@ -218,8 +224,11 @@ a, a:hover {
       line-height: 130%;
       width: 300px;
     }
+    &__fab{
+      margin: 10px;
+    }
     &__icon{
-      color: #353A5A;
+      width: 18px;
     }
   }
 }

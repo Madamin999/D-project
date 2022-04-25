@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1440px;
+  margin: auto;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+
+}
+a, a:hover {
+  text-decoration: none;
+}
+#header{
+  min-width: 200vh;
+  position: fixed;
+  background: #10B582;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .navbar{
+    padding-top: 10px;
+    &__logo{
+      content: "";
+      color: #FDFDFD;
+      font-size: 20px;
+      transition: 0.5s;
+    }
+    &__logo:hover{
+      color:#ff910f;
+
+
+    }
+
+
+    &__item{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      color: #FDFDFD;
+      position: relative;
+      cursor: pointer;
+    }
+
+    &__item:after {
+      content: "";
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: -3px;
+      width: 0;
+      height: 2px; /* Высота линии */
+      background-color: black; /* Цвет подчеркивания при исчезании линии*/
+      transition: width 0.5s; /* Время эффекта */
+    }
+
+    &__item:hover:after {
+      content: "";
+      width: 100%;
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: -3px;
+      height: 2px; /* Высота линии */
+      background-color: red; /* Цвет подчеркивания при появлении линии*/
+      transition: width 0.5s;  /* Время эффекта */
+    }
+
+  }
+}
+#atf2{
+  padding: 150px 0 150px 0;
+ .atf2{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   &__floor{
+     padding: 30px 0 30px 0;
+   }
+ }
+
+}
+.line{
+  opacity: 0.1;
+  border: 1px solid #353A5A;
+  margin: 50px 0 50px 0;
+}
+#footer{
+  padding: 30px 0 30px 0;
+  .footer{
+    &__logo{
+      color: #353A5A;
+    }
+    &__subtitle{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 130%;
+      width: 300px;
+    }
+    &__fab{
+      margin: 10px;
+    }
+    &__icon{
+      width: 18px;
+    }
+  }
+}
